@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+        <variable
+            name="myName"
+            type="com.luismiguel.aboutme.MyName"></variable>
+    </data>
 <LinearLayout
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
@@ -15,7 +20,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="@string/app_name"
+        android:text="@={myName.name}"
         app:fontFamily="@font/roboto"/>
 
     <EditText
@@ -54,7 +59,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="TextView" />
+        android:text="@={myName.nickname}" />
 
     <ScrollView
         android:id="@+id/bio_scroll"
