@@ -1,6 +1,17 @@
 <resources>
-    <string name="app_name">AboutMe</string>
-    <string name="name">Miguel Casas</string>
+    <string name="app_name">Miguel Casas</string>
     <string name="text_size">20sp</string>
     <string name="yellow_star">Yellow star</string>
+    <string name="bio">Hi, my name is Miguel
+    \n\nMe gusta el pescado
+    \n\nEl tipo esta a salvo y nada en un acuario o rio, o un lago, y definitivamente en el océano.
+    \n\nTengo muchos acuarios y también un río.
+    \n\nMe gusta comer pescado. Raw fish. Grilled fish. Smoked fish. Poached fish - not so much
+    \n\nY algunas veces voy a pescar.
+    \nY algunas veces atrapo algo.
+    \n\nUna vez que he estado en Canada, muy hambriento, atrapé un salmon con mis manos.
+    \n\nEstare muy feliz de enseñarte a cómo hacer tu propio acuario
+    \nTu debes preguntarme algo sobre pescar.\n\n</string>
+    <string name="what_is_your_nickname">What is your Nickname?</string>
+    <string name="done">Done</string>
 </resources>
